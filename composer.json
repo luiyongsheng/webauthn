@@ -1,0 +1,43 @@
+{
+	"authors": [
+		{
+			"email": "luiyongsheng@rentrar.com",
+			"name": "Lui Yong Sheng"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Luiyongsheng\\Webauthn\\": "src/"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"description": "Allow users to login with FaceID or TouchID",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"LuiYongSheng\\WebAuthn\\WebAuthnServiceProvider"
+			]
+		}
+	},
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"name": "luiyongsheng/webauthn",
+	"require": {
+		"illuminate/contracts": "^8.49",
+		"illuminate/database": "^8.49",
+		"illuminate/http": "^8.49",
+		"illuminate/support": "^8.49",
+		"illuminate/validation": "^8.49",
+		"nyholm/psr7": "^1.4",
+		"php": "^7.2.5|^8.0",
+		"psr/http-message": "^1.0",
+		"symfony/psr-http-message-bridge": "^2.1",
+		"web-auth/webauthn-lib": "^3.3"
+	},
+	"scripts": {
+		"cs": "php-cs-fixer fix . --config=.php_cs --allow-risky=yes",
+		"psalm": "vendor/bin/psalm"
+	}
+}
