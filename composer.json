@@ -13,7 +13,7 @@
 	"config": {
 		"sort-packages": true
 	},
-	"description": "Allow users to login with FaceID or TouchID",
+	"description": "Allow users to login with FaceID or TouchID in your Laravel app.",
 	"extra": {
 		"laravel": {
 			"providers": [
