@@ -7,7 +7,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Luiyongsheng\\Webauthn\\": "src/"
+			"LuiYongSheng\\Webauthn\\": "src/"
 		}
 	},
 	"config": {
@@ -25,15 +25,15 @@
 	"minimum-stability": "dev",
 	"name": "luiyongsheng/webauthn",
 	"require": {
-		"illuminate/contracts": "^8.49",
-		"illuminate/database": "^8.49",
-		"illuminate/http": "^8.49",
-		"illuminate/support": "^8.49",
-		"illuminate/validation": "^8.49",
-		"nyholm/psr7": "^1.4",
+		"illuminate/contracts": "^8.0",
+		"illuminate/database": "^8.0",
+		"illuminate/http": "^8.0",
+		"illuminate/support": "^8.0",
+		"illuminate/validation": "^8.0",
+		"nyholm/psr7": "^1.3",
 		"php": "^7.2.5|^8.0",
 		"psr/http-message": "^1.0",
-		"symfony/psr-http-message-bridge": "^2.1",
+		"symfony/psr-http-message-bridge": "^2.0",
 		"web-auth/webauthn-lib": "^3.3"
 	},
 	"scripts": {
